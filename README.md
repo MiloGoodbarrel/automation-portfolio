@@ -29,6 +29,7 @@ These scripts were written between **2018-2024** during my tenure managing heter
 automation-portfolio/
 ├── PowerShell/              # Windows & Active Directory automation (29 scripts)
 │   ├── ActiveDirectory/     # User lifecycle, HRIS sync, AD health monitoring
+|       └── HRIS-Sync/           # Active Directory user lifecycle automation with CSV inputs
 │   ├── Security/            # JIT admin access, lockout investigation, certificate monitoring
 │   ├── ComputerManagement/  # Capacity forecasting, backup validation, inventory
 │   ├── Registry/            # OS upgrade controls, IPv6 management
@@ -47,11 +48,9 @@ automation-portfolio/
 │   └── README.md
 │
 ├── Terraform/               # AWS cloud infrastructure (Black Friday e-commerce)
-│   ├── modules/             # Reusable IaC modules (networking, security, auto-scaling)
-│   └── README.md
-│
-└── Examples/                # Complex projects with supporting data files
-    └── HRIS-Sync/           # Active Directory user lifecycle automation with CSV inputs
+    ├── modules/             # Reusable IaC modules (networking, security, auto-scaling)
+    └── README.md
+
 ```
 
 ---
