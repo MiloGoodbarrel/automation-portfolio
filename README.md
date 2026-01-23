@@ -226,17 +226,6 @@ This portfolio is shared for **educational and demonstration purposes**. The scr
 
 ---
 
-## 📞 Contact
-
-**Luis Ramirez**  
-*Systems Administrator | Infrastructure Engineer*
-
-- **LinkedIn:** [Your LinkedIn Profile]
-- **GitHub:** [Your GitHub Profile]
-- **Email:** your.email@example.com
-
----
-
 ## 🙏 Acknowledgments
 
 - **AI Tools Used:** GitHub Copilot, ChatGPT (for code cleanup, documentation enhancement, and modernization)
