@@ -161,7 +161,7 @@ Each technology folder contains a detailed README with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/automation-portfolio.git
+   git clone https://github.com/MiloGoodbarrel/automation-portfolio.git
    cd automation-portfolio
    ```
 
