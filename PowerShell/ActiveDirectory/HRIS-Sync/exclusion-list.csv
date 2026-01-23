@@ -1,0 +1,16 @@
+UserPrincipalName,Reason,AddedBy,AddedDate
+svc_backup@company.com,Veeam Backup Service Account,IT Admin,2020-01-15
+svc_monitoring@company.com,Nagios Monitoring Service,IT Admin,2020-01-15
+svc_sql@company.com,SQL Server Service Account,DBA Team,2019-08-10
+svc_sharepoint@company.com,SharePoint Application Pool,IT Admin,2020-03-20
+admin@company.com,Break-Glass Emergency Admin,Security Team,2019-12-01
+svc_adconnect@company.com,Azure AD Connect Sync,Cloud Team,2021-05-15
+svc_sccm@company.com,SCCM Computer Account,IT Admin,2020-06-01
+svc_exchange@company.com,Exchange Service Account,Email Team,2019-11-15
+svc_vmware@company.com,vCenter Service Account,Virtualization Team,2020-02-10
+svc_jenkins@company.com,Jenkins CI/CD Service,DevOps Team,2022-01-05
+svc_ansible@company.com,Ansible Automation,DevOps Team,2022-03-15
+administrator@company.com,Domain Administrator,Security Team,2019-01-01
+svc_prtg@company.com,PRTG Network Monitor,Network Team,2021-08-20
+svc_splunk@company.com,Splunk Log Collector,Security Team,2020-09-15
+testuser@company.com,QA Testing Account,QA Team,2021-11-10

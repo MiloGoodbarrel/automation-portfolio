@@ -1,0 +1,16 @@
+EmployeeID,FirstName,LastName,Email,Department,Title,Manager,HireDate,TerminationDate,Status
+E10001,John,Smith,john.smith@company.com,Engineering,Software Engineer,jane.doe@company.com,2022-03-15,,Active
+E10002,Jane,Doe,jane.doe@company.com,Engineering,Engineering Manager,cto@company.com,2020-01-10,,Active
+E10003,Michael,Johnson,michael.johnson@company.com,Sales,Account Executive,sales.director@company.com,2021-06-01,,Active
+E10004,Sarah,Williams,sarah.williams@company.com,Marketing,Marketing Specialist,marketing.director@company.com,2023-01-15,,Active
+E10005,David,Brown,david.brown@company.com,Finance,Financial Analyst,cfo@company.com,2021-09-01,,Active
+E10006,Lisa,Garcia,lisa.garcia@company.com,HR,HR Coordinator,hr.director@company.com,2022-05-20,,Active
+E10007,Robert,Martinez,robert.martinez@company.com,Engineering,DevOps Engineer,jane.doe@company.com,2023-07-10,,Active
+E10008,Emily,Rodriguez,emily.rodriguez@company.com,Customer Support,Support Specialist,support.manager@company.com,2020-11-05,,Active
+E10009,James,Wilson,james.wilson@company.com,Sales,Sales Manager,sales.director@company.com,2019-03-01,,Active
+E10010,Mary,Anderson,mary.anderson@company.com,Marketing,Content Writer,marketing.director@company.com,2022-08-15,,Active
+E10011,Thomas,Taylor,thomas.taylor@company.com,Engineering,Senior Engineer,jane.doe@company.com,2018-06-01,2024-01-15,Terminated
+E10012,Jennifer,Moore,jennifer.moore@company.com,Finance,Accountant,cfo@company.com,2021-04-10,2023-12-31,Terminated
+E10013,Christopher,Jackson,christopher.jackson@company.com,Sales,BDR,james.wilson@company.com,2023-11-01,,Active
+E10014,Amanda,White,amanda.white@company.com,HR,Recruiter,hr.director@company.com,2022-02-20,,Active
+E10015,Daniel,Harris,daniel.harris@company.com,Engineering,QA Engineer,jane.doe@company.com,2023-03-05,,Active

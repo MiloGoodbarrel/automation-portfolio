@@ -1,0 +1,48 @@
+################################################
+# Author: Luis Ramirez                         #
+# Created: 10-15-2019                          #
+# Updated: 11-20-2019                          #
+################################################
+#
+# Example variable values for Black Friday deployment
+# Copy to terraform.tfvars and customize
+#
+
+aws_region  = "us-east-1"
+environment = "production"
+
+# SSH key for EC2 access
+ssh_key_name = "ecommerce-prod-key"
+
+# Web Tier - Black Friday Scaling
+web_instance_type        = "t3.medium"
+web_asg_min_size         = 4      # Minimum baseline
+web_asg_max_size         = 50     # Black Friday peak capacity
+web_asg_desired_capacity = 6      # Normal operations
+
+# Auto-Scaling Configuration
+scale_up_cpu_threshold   = 70     # Scale up at 70% CPU
+scale_down_cpu_threshold = 30     # Scale down at 30% CPU
+scale_up_adjustment      = 5      # Add 5 instances rapidly
+scale_down_adjustment    = -2     # Remove slowly to avoid flapping
+
+# Database - High Performance for Transaction Load
+db_instance_class          = "db.r5.xlarge"  # Memory-optimized
+db_allocated_storage       = 500             # 500GB
+db_name                    = "ecommerce"
+db_username                = "admin"         # Change in production
+db_password                = "CHANGE_ME"     # Use Secrets Manager
+db_multi_az                = true            # High availability
+db_backup_retention_period = 7               # 7 days retention
+
+# ElastiCache - Session Management
+cache_node_type = "cache.r5.large"
+
+# SSL Certificate
+ssl_certificate_arn = "arn:aws:acm:us-east-1:ACCOUNT_ID:certificate/CERT_ID"
+
+# Network CIDR Blocks
+vpc_cidr                = "10.0.0.0/16"
+public_subnet_cidrs     = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+private_subnet_cidrs    = ["10.0.11.0/24", "10.0.12.0/24", "10.0.13.0/24"]
+database_subnet_cidrs   = ["10.0.21.0/24", "10.0.22.0/24", "10.0.23.0/24"]
