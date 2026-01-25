@@ -27,11 +27,11 @@ These scripts were written between **2018-2024** during my tenure managing heter
 
 ```
 automation-portfolio/
-├── PowerShell/              # Windows & Active Directory automation (29 scripts)
+├── PowerShell/              # Windows & Active Directory automation (32 scripts)
 │   ├── ActiveDirectory/     # User lifecycle, HRIS sync, AD health monitoring
 |       └── HRIS-Sync/           # Active Directory user lifecycle automation with CSV inputs
 │   ├── Security/            # JIT admin access, lockout investigation, certificate monitoring
-│   ├── ComputerManagement/  # Capacity forecasting, backup validation, inventory
+│   ├── ComputerManagement/  # Capacity forecasting, file share management, patch orchestration
 │   ├── Registry/            # OS upgrade controls, IPv6 management
 │   └── README.md
 │
@@ -58,7 +58,7 @@ automation-portfolio/
 ## 🎯 Key Projects & Achievements
 
 ### 1. **HRIS-to-Active Directory Sync** (PowerShell)
-**Business Impact:** Automated user lifecycle for 2,000+ employees, reducing manual errors by 95%
+**Business Impact:** Automated user lifecycle for large enterprise workforce, significantly reducing manual errors
 
 - 5-layer safety system prevents accidental deletions of service accounts
 - Validates against HR data before AD changes
@@ -82,11 +82,11 @@ automation-portfolio/
 ---
 
 ### 3. **Black Friday E-Commerce Infrastructure** (Terraform)
-**Business Impact:** Handled 2M+ transactions in 24 hours, zero downtime, 60% cost savings
+**Business Impact:** Handled heavy traffic loads during peak sales periods, maintaining uptime while reducing operational costs
 
 - Auto-scaling web tier (4-50 instances based on load)
 - Multi-AZ high availability across 3 availability zones
-- WAF protection against DDoS attacks (blocked 15,000+ malicious requests)
+- WAF protection against DDoS attacks (blocked thousands of malicious requests)
 - CloudFront CDN + ElastiCache for performance
 
 **Files:** `Terraform/` (complete AWS multi-tier architecture)
@@ -94,7 +94,7 @@ automation-portfolio/
 ---
 
 ### 4. **macOS Temporary Admin Access** (Bash/JAMF)
-**Business Impact:** Self-service admin access for users with help desk 2FA, auto-revoke after 3 minutes
+**Business Impact:** Self-service admin access with help desk verification, automatic revocation for security
 
 - User requests via Self Service (JAMF Pro)
 - Help desk generates verification code
@@ -105,11 +105,38 @@ automation-portfolio/
 
 ---
 
-### 5. **Predictive Capacity Forecasting** (PowerShell)
-**Business Impact:** Proactive disk space management, prevented outages via forecasting
+### 5. **File Share Provisioning & Recovery** (PowerShell)
+**Business Impact:** Automated file share creation with integrated AD security, simplified file recovery workflows
+
+- Automated DFS namespace and SMB share creation
+- Automatic AD security group provisioning (Read, Modify, Full Control)
+- Advanced search with deleted file detection via shadow copies
+- Move detection and recovery guidance for misplaced files
+- Quota management and audit logging
+
+**Files:** `PowerShell/ComputerManagement/New-FileShareWithADGroup.ps1`, `Search-FileShareContent.ps1`
+
+---
+
+### 6. **Patch Tuesday Service Orchestration** (PowerShell)
+**Business Impact:** Streamlined production patching workflow, reducing maintenance window duration and manual errors
+
+- Server-specific service dependency management
+- Pre-patch validation (connectivity, backups, service states)
+- Graceful service shutdown with configurable ordering
+- Automated post-patch service restoration
+- Email notifications and comprehensive logging
+- Rollback capability for failed operations
+
+**Files:** `PowerShell/ComputerManagement/Invoke-PatchTuesdayOrchestration.ps1`
+
+---
+
+### 7. **Predictive Capacity Forecasting** (PowerShell)
+**Business Impact:** Proactive disk space management, preventing storage-related outages
 
 - Linear regression analysis of disk usage trends
-- Predicts capacity exhaustion 90 days in advance
+- Predicts capacity exhaustion with advance notice
 - Automated alerting when thresholds exceeded
 - Historical data visualization
 
@@ -191,11 +218,11 @@ These scripts are **portfolio examples** demonstrating real-world automation pat
 
 | Category | Script Count | Date Range | Lines of Code |
 |----------|--------------|------------|---------------|
-| PowerShell | 29 scripts | 2018-2024 | ~4,500 LOC |
-| Bash | 7 scripts | 2019-2020 | ~1,200 LOC |
+| PowerShell | 32 scripts | 2018-2024 | ~5,400 LOC |
+| Bash | 14 scripts | 2019-2021 | ~1,200 LOC |
 | Python | 3 scripts | 2020-2022 | ~1,800 LOC |
 | Terraform | 18 files | 2019 | ~2,000 LOC |
-| **Total** | **57 files** | **2018-2024** | **~9,500 LOC** |
+| **Total** | **67 files** | **2018-2024** | **~10,400 LOC** |
 
 ---
 
