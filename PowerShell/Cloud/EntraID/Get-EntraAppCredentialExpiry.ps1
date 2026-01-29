@@ -1,4 +1,4 @@
-<
+<#
 .SYNOPSIS
 Report expiring app registration credentials.
 
@@ -12,7 +12,6 @@ Only show credentials expiring within this many days.
 Connect to Microsoft Graph before running.
 
 .EXAMPLE
-.
 Get-EntraAppCredentialExpiry.ps1 -DaysThreshold 30
 
 .NOTES

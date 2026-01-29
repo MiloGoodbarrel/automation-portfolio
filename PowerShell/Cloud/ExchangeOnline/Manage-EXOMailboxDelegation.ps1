@@ -1,4 +1,4 @@
-<
+<#
 .SYNOPSIS
 Add, remove, or report Exchange Online mailbox delegation.
 
@@ -25,11 +25,9 @@ Enable or disable AutoMapping for FullAccess permissions.
 Connect to Exchange Online before running.
 
 .EXAMPLE
-.
 Manage-EXOMailboxDelegation.ps1 -Mailbox "shared@contoso.com" -User "alex@contoso.com" -Permission FullAccess -Action Add -AutoMapping
 
 .EXAMPLE
-.
 Manage-EXOMailboxDelegation.ps1 -Mailbox "shared@contoso.com" -Permission SendAs -Action Report
 
 .NOTES

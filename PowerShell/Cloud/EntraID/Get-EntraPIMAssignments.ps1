@@ -1,4 +1,4 @@
-<
+<#
 .SYNOPSIS
 Report Entra ID PIM eligible and active role assignments.
 
@@ -22,11 +22,9 @@ Include active assignments (default: on).
 Connect to Microsoft Graph before running.
 
 .EXAMPLE
-.
 Get-EntraPIMAssignments.ps1 -UserPrincipalName "alex@contoso.com"
 
 .EXAMPLE
-.
 Get-EntraPIMAssignments.ps1 -RoleDisplayName "Privileged Role Administrator" -IncludeEligible
 
 .NOTES

@@ -1,4 +1,4 @@
-<
+<#
 .SYNOPSIS
 Get Azure AD Connect sync scheduler status.
 
@@ -7,7 +7,6 @@ Reports Azure AD Connect scheduler status, last/next sync times, and sync cycle 
 Must run on the Azure AD Connect server.
 
 .EXAMPLE
-.
 Get-AADConnectSyncStatus.ps1
 
 .NOTES

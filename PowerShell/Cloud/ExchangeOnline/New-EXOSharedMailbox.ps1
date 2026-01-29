@@ -1,4 +1,4 @@
-<
+<#
 .SYNOPSIS
 Create a new shared mailbox or convert an existing mailbox to shared.
 
@@ -34,11 +34,9 @@ Hide mailbox from the GAL.
 Connect to Exchange Online before running.
 
 .EXAMPLE
-.
 New-EXOSharedMailbox.ps1 -DisplayName "IT Helpdesk" -Alias "it-help" -PrimarySmtpAddress "it-help@contoso.com" -Owners "alex@contoso.com" -Members "helpdesk1@contoso.com","helpdesk2@contoso.com"
 
 .EXAMPLE
-.
 New-EXOSharedMailbox.ps1 -ConvertExisting -ExistingUserPrincipalName "oldshared@contoso.com" -Owners "manager@contoso.com"
 
 .NOTES

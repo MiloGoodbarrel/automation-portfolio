@@ -1,4 +1,4 @@
-<
+<#
 .SYNOPSIS
 Set Exchange Online mailbox quotas.
 
@@ -21,7 +21,6 @@ Send/receive prohibited threshold (e.g., 50GB).
 Connect to Exchange Online before running.
 
 .EXAMPLE
-.
 Set-EXOMailboxQuota.ps1 -Identity "user@contoso.com" -IssueWarningQuota 45GB -ProhibitSendQuota 49GB -ProhibitSendReceiveQuota 50GB
 
 .NOTES

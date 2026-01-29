@@ -1,4 +1,4 @@
-<
+<#
 .SYNOPSIS
 Trigger Azure AD Connect sync cycle.
 
@@ -9,7 +9,6 @@ Runs a Delta or Initial sync cycle on the Azure AD Connect server.
 Delta (default) or Initial.
 
 .EXAMPLE
-.
 Invoke-AADConnectDeltaSync.ps1 -PolicyType Delta
 
 .NOTES
