@@ -14,7 +14,10 @@
 #                                                                                  #
 # Example: .\Ensure-RequiredLocalAdmins.ps1                                       #
 # Example: .\Ensure-RequiredLocalAdmins.ps1 -Domain "CONTOSO"                     #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 [CmdletBinding()]
 param(

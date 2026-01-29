@@ -9,7 +9,10 @@
 # This script checks for the existence of a Registry DWord. Then Checks the value  #
 # If it exists it checks the value and sets it to 0 if necessary.                  #
 # If it does not exist then it creates the Dword and sets the value to 0           #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 $Key = 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters\'
 $Dword = 'DisabledComponents'

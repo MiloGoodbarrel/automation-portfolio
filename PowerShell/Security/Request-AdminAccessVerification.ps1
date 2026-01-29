@@ -15,7 +15,10 @@
 #                                                                                  #
 # Example: .\Request-AdminAccessVerification.ps1                                  #
 # Example: .\Request-AdminAccessVerification.ps1 -ServiceDeskPhone "555-1234"     #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 [CmdletBinding()]
 param(

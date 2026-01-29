@@ -66,6 +66,8 @@
     - Identifies corruption before disaster strikes
     - Validates RTO/RPO metrics
     - Compliance evidence (tested disaster recovery)
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

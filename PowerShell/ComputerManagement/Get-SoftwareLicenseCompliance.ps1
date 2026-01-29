@@ -59,6 +59,8 @@
     - WMI/CIM access to target computers
     - Administrator permissions
     - License inventory maintained
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

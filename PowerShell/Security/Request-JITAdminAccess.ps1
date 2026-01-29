@@ -58,6 +58,8 @@
     Companion Scripts:
     - Approve-AdminAccessRequest.ps1 (for approvers)
     - Revoke-ExpiredAdminAccess.ps1 (scheduled task)
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

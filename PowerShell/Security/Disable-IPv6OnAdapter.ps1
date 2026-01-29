@@ -14,7 +14,10 @@
 # Example: .\Disable-IPv6OnAdapter.ps1                                            #
 # Example: .\Disable-IPv6OnAdapter.ps1 -InterfaceAlias "Ethernet"                 #
 # Example: .\Disable-IPv6OnAdapter.ps1 -InterfaceAlias "Wi-Fi"                    #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'Medium')]
 param(

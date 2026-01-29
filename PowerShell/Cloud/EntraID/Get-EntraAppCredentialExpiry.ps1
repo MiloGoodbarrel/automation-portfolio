@@ -15,7 +15,10 @@ Connect to Microsoft Graph before running.
 Get-EntraAppCredentialExpiry.ps1 -DaysThreshold 30
 
 .NOTES
+Author: Luis Ramirez
 Requires Microsoft.Graph module with Application.Read.All.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules Microsoft.Graph
 

@@ -13,7 +13,10 @@ Connect to Microsoft Graph before running.
 Get-TeamsOwnershipReport.ps1
 
 .NOTES
+Author: Luis Ramirez
 Requires Microsoft.Graph module with Group.Read.All.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules Microsoft.Graph
 

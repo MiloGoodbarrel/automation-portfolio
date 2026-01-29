@@ -11,6 +11,8 @@ Get-AADConnectSyncStatus.ps1
 
 .NOTES
 Requires ADSync module (Azure AD Connect server only).
+
+Author: Luis Ramirez
 #>
 #Requires -Modules ADSync
 

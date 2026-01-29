@@ -61,6 +61,8 @@
     - Run daily to collect data points
     - Store historical snapshots
     - Alert on 90-day threshold for procurement lead time
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

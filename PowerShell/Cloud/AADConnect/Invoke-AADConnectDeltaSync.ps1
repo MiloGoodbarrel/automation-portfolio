@@ -12,7 +12,10 @@ Delta (default) or Initial.
 Invoke-AADConnectDeltaSync.ps1 -PolicyType Delta
 
 .NOTES
+Author: Luis Ramirez
 Requires ADSync module (Azure AD Connect server only).
+
+Author: Luis Ramirez
 #>
 #Requires -Modules ADSync
 

@@ -70,6 +70,8 @@
     - Weekly: Run this script with -Stage Disable
     - Monthly: Run with -Stage StageForDelete
     - Quarterly: Run with -Stage Delete (after management review)
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

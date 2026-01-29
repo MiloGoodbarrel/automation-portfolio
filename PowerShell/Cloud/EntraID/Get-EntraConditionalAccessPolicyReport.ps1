@@ -13,7 +13,10 @@ Connect to Microsoft Graph before running.
 Get-EntraConditionalAccessPolicyReport.ps1
 
 .NOTES
+Author: Luis Ramirez
 Requires Microsoft.Graph module with Policy.Read.All.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules Microsoft.Graph
 

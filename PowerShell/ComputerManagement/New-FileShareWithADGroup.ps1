@@ -83,6 +83,8 @@
     2.1 - Added DFS namespace support, quota management
     2.0 - Modernized for Server 2019/2022, added ABE
     1.0 - Initial release
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding(SupportsShouldProcess)]

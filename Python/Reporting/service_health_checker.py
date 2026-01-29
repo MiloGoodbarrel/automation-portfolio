@@ -1,3 +1,5 @@
+__author__ = "Luis Ramirez"
+
 """Service health checker with optional webhook notification."""
 
 from __future__ import annotations

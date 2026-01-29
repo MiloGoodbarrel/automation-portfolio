@@ -24,7 +24,10 @@ Connect to Exchange Online before running.
 Set-EXOMailboxQuota.ps1 -Identity "user@contoso.com" -IssueWarningQuota 45GB -ProhibitSendQuota 49GB -ProhibitSendReceiveQuota 50GB
 
 .NOTES
+Author: Luis Ramirez
 Requires ExchangeOnlineManagement module.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules ExchangeOnlineManagement
 

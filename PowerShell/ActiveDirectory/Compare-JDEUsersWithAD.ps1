@@ -14,7 +14,10 @@
 #                                                                                  #
 # Example: .\Compare-JDEUsersWithAD.ps1                                           #
 # Example: .\Compare-JDEUsersWithAD.ps1 -JDEUserCSV "C:\Data\users.csv"           #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 [CmdletBinding()]
 param(

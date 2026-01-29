@@ -28,7 +28,10 @@ Get-EntraPIMAssignments.ps1 -UserPrincipalName "alex@contoso.com"
 Get-EntraPIMAssignments.ps1 -RoleDisplayName "Privileged Role Administrator" -IncludeEligible
 
 .NOTES
+Author: Luis Ramirez
 Requires Microsoft.Graph modules and RoleManagement.Read.Directory permission.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules Microsoft.Graph
 

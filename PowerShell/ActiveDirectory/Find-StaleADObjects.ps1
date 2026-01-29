@@ -64,6 +64,8 @@
     - Review export file
     - Get management approval
     - Use Remove-StaleComputersWorkflow.ps1 for staged deletion
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

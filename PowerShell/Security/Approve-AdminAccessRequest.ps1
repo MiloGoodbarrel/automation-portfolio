@@ -38,6 +38,9 @@
     .\Approve-AdminAccessRequest.ps1 -RequestID "JIT-20260123120000-jdoe" -Action Deny -Reason "Insufficient justification"
     
     Deny the request.
+
+.NOTES
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

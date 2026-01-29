@@ -32,6 +32,8 @@
 
 .NOTES
     Run this script BEFORE implementing HRIS automation to identify potential issues.
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

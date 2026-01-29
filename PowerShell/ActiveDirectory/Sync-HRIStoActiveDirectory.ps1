@@ -38,7 +38,10 @@
 #   -EmailReport: Send summary email after completion                             #
 #                                                                                  #
 # Example: .\Sync-HRIStoActiveDirectory.ps1 -HRISExportFile "employees.csv" -DryRun
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 [CmdletBinding()]
 param(

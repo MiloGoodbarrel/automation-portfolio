@@ -2,6 +2,7 @@
 set -euo pipefail
 
 # Verify-FileVault-Escrow.sh
+# Author: Luis Ramirez
 # Checks FileVault status and whether a Personal Recovery Key (PRK) exists.
 # Note: Escrow validation must be performed in your MDM (Jamf/Intune).
 

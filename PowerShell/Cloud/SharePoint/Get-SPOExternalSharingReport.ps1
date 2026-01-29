@@ -16,7 +16,10 @@ Connect to SharePoint Online before running.
 Get-SPOExternalSharingReport.ps1 -AdminUrl "https://contoso-admin.sharepoint.com" -Connect
 
 .NOTES
+Author: Luis Ramirez
 Requires Microsoft.Online.SharePoint.PowerShell module.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules Microsoft.Online.SharePoint.PowerShell
 

@@ -46,6 +46,8 @@
     $action = New-ScheduledTaskAction -Execute "PowerShell.exe" -Argument "-File C:\Scripts\Revoke-ExpiredAdminAccess.ps1"
     $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 15) -RepetitionDuration ([TimeSpan]::MaxValue)
     Register-ScheduledTask -TaskName "JIT-Admin-Access-Revocation" -Action $action -Trigger $trigger -User "SYSTEM" -RunLevel Highest
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

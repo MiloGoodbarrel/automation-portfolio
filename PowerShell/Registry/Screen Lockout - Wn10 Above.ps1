@@ -1,4 +1,4 @@
-﻿########################
+########################
 # Author: Luis Ramirez #
 # Updated 6-12-2020    #
 ########################
@@ -7,7 +7,10 @@
 # This script checks for the existence of a Registry DWord. Then Checks the value    #
 # If it exists it checks the value and sets it to 600 if necessary.                  #
 # If it does not exist then it creates the Dword and sets the value to 600           #
-######################################################################################>
+#####################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 $Key = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\'
 $Dword = 'InactivityTimeoutSecs'

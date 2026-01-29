@@ -16,7 +16,10 @@
 #                                                                                  #
 # Example: .\Get-ADUsersByLocation.ps1                                            #
 # Example: .\Get-ADUsersByLocation.ps1 -Locations "Australia","Canada"            #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 [CmdletBinding()]
 param(

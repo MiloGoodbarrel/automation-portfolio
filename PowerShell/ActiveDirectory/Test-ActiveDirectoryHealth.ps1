@@ -58,6 +58,8 @@
     - PowerShell Remoting enabled on DCs
     
     Recommended: Run weekly via scheduled task
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

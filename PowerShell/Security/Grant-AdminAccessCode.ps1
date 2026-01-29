@@ -12,7 +12,10 @@
 # generate matching access codes for verification.                                #
 #                                                                                  #
 # Example: .\Grant-AdminAccessCode.ps1                                            #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 Clear-Host
 

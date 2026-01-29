@@ -21,7 +21,10 @@ Get-M365LicenseReport.ps1
 Get-M365LicenseReport.ps1 -IncludeUserDetails
 
 .NOTES
+Author: Luis Ramirez
 Requires Microsoft.Graph module with Organization.Read.All, User.Read.All.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules Microsoft.Graph
 

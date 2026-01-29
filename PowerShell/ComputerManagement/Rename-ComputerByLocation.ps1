@@ -22,7 +22,10 @@
 #   .\Rename-ComputerByLocation.ps1 -ConfigFile "subnets.csv" -DryRun             #
 #   .\Rename-ComputerByLocation.ps1 -NamingTemplate "{HW}-{Serial5}"              #
 #   .\Rename-ComputerByLocation.ps1 -DefaultLocation "HQ" -DefaultHardware "WS"   #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 [CmdletBinding()]
 param(

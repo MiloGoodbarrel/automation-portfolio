@@ -13,7 +13,10 @@
 #   -Domain: The domain name (NetBIOS format). Defaults to current domain         #
 #                                                                                  #
 # Example: .\Add-DomainGroupsToLocalAdmin.ps1                                     #
-####################################################################################>
+###################################################################################
+.NOTES
+Author: Luis Ramirez
+#>
 
 [CmdletBinding()]
 param(

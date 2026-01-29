@@ -77,6 +77,8 @@
     - Passwords stored in memory only
     - Can integrate with secret management system
     - Audit log for compliance
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

@@ -40,7 +40,10 @@ New-EXOSharedMailbox.ps1 -DisplayName "IT Helpdesk" -Alias "it-help" -PrimarySmt
 New-EXOSharedMailbox.ps1 -ConvertExisting -ExistingUserPrincipalName "oldshared@contoso.com" -Owners "manager@contoso.com"
 
 .NOTES
+Author: Luis Ramirez
 Requires ExchangeOnlineManagement module.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules ExchangeOnlineManagement
 

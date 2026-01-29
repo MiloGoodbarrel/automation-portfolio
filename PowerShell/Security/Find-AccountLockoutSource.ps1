@@ -63,6 +63,8 @@
     - 4625: Failed logon (shows IP/workstation)
     - 4776: Credential validation (NTLM auth source)
     - 4771: Kerberos pre-auth failed
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

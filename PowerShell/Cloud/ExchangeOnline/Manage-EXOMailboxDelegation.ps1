@@ -31,7 +31,10 @@ Manage-EXOMailboxDelegation.ps1 -Mailbox "shared@contoso.com" -User "alex@contos
 Manage-EXOMailboxDelegation.ps1 -Mailbox "shared@contoso.com" -Permission SendAs -Action Report
 
 .NOTES
+Author: Luis Ramirez
 Requires ExchangeOnlineManagement module.
+
+Author: Luis Ramirez
 #>
 #Requires -Modules ExchangeOnlineManagement
 

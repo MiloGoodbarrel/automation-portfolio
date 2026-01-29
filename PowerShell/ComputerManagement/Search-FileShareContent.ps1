@@ -104,6 +104,8 @@
     2.1 - Added metadata tracking and CSV export
     2.0 - Shadow copy integration for deleted files
     1.0 - Initial release
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

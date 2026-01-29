@@ -62,6 +62,8 @@
     - Local administrator rights on remote servers
     - PowerShell Remoting enabled
     - WebAdministration module for IIS bindings
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

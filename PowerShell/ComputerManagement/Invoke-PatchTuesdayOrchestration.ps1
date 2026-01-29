@@ -157,6 +157,8 @@
     3.0 - Rewrite for Server 2016/2019 compatibility
     2.0 - Added email notifications and rollback
     1.0 - Initial release
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding(SupportsShouldProcess)]

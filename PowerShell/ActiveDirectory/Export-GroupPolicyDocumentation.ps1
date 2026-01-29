@@ -57,6 +57,8 @@
     - Run monthly for documentation
     - Version control exports
     - Review orphaned GPOs quarterly
+
+Author: Luis Ramirez
 #>
 
 [CmdletBinding()]

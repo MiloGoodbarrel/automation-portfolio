@@ -1,5 +1,6 @@
 #!/bin/bash
 ################################################
+# Author: Luis Ramirez
 # Web Server Bootstrap Script
 # Installs web application and dependencies
 ################################################
