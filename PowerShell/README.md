@@ -10,6 +10,7 @@ powershell-automation/
 ├── Security/              # Access control, verification systems
 ├── ActiveDirectory/       # AD queries and user management
 ├── Registry/              # Registry-based configurations
+├── Cloud/                 # Microsoft 365, Entra ID, Azure AD Connect
 └── Examples/              # Sample configuration files
 ```
 
@@ -109,6 +110,44 @@ Queries AD users by geographic location/OU and exports detailed reports.
 
 #### Compare-JDEUsersWithAD.ps1
 Cross-references external user databases (e.g., JD Edwards) with Active Directory for compliance auditing.
+
+### Cloud (Microsoft 365 / Entra ID)
+
+#### Manage-EXOMailboxDelegation.ps1
+Adds/removes/reports Exchange Online mailbox delegation (Full Access, Send As, Send on Behalf).
+
+#### New-EXOSharedMailbox.ps1
+Creates or converts shared mailboxes and assigns owners/members.
+
+#### Set-EXOMailboxQuota.ps1
+Updates mailbox quota thresholds in Exchange Online.
+
+#### Get-EntraPIMAssignments.ps1
+Reports active and eligible PIM role assignments using Microsoft Graph.
+
+#### Get-M365LicenseReport.ps1
+Reports Microsoft 365 license availability and assignments.
+
+#### Get-EntraConditionalAccessPolicyReport.ps1
+Exports Conditional Access policy settings for review/audit.
+
+#### Get-EntraMFARegistrationReport.ps1
+Reports MFA registration and authentication method readiness.
+
+#### Get-EntraAppCredentialExpiry.ps1
+Flags app registration secrets/certificates expiring soon.
+
+#### Get-IntuneDeviceComplianceReport.ps1
+Reports Intune device compliance and last sync details.
+
+#### Get-TeamsOwnershipReport.ps1
+Reports Team ownership and member counts.
+
+#### Get-SPOExternalSharingReport.ps1
+Reports SharePoint Online external sharing settings by site.
+
+#### Get-AADConnectSyncStatus.ps1 / Invoke-AADConnectDeltaSync.ps1
+Reports Azure AD Connect sync status and triggers Delta/Initial syncs (AAD Connect server only).
 
 ### Registry Configuration
 

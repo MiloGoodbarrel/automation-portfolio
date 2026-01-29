@@ -8,7 +8,7 @@
 
 ## 📌 About This Repository
 
-This repository showcases automation scripts and infrastructure-as-code developed throughout my career in enterprise IT operations. The scripts span **Windows Active Directory, macOS/JAMF Pro, cross-platform Python tools, and AWS cloud infrastructure**.
+This repository showcases automation scripts and infrastructure-as-code developed throughout my career in enterprise IT operations. The scripts span **Windows Active Directory, Microsoft 365/Entra ID/Intune/SharePoint/Teams, macOS/JAMF Pro, cross-platform Python tools, and AWS cloud infrastructure**.
 
 ### Timeline & Evolution
 
@@ -27,28 +27,35 @@ These scripts were written between **2018-2024** during my tenure managing heter
 
 ```
 automation-portfolio/
-├── PowerShell/              # Windows & Active Directory automation (32 scripts)
+├── PowerShell/              # Windows, AD, Microsoft 365/Entra automation (46 scripts)
 │   ├── ActiveDirectory/     # User lifecycle, HRIS sync, AD health monitoring
-|       └── HRIS-Sync/           # Active Directory user lifecycle automation with CSV inputs
 │   ├── Security/            # JIT admin access, lockout investigation, certificate monitoring
 │   ├── ComputerManagement/  # Capacity forecasting, file share management, patch orchestration
 │   ├── Registry/            # OS upgrade controls, IPv6 management
+│   ├── Cloud/               # Microsoft 365, Entra ID, Azure AD Connect
+│   │   ├── ExchangeOnline/  # Mailbox management, delegation, quotas
+│   │   ├── EntraID/         # PIM, licenses, Conditional Access, MFA
+│   │   ├── AADConnect/      # Sync status and triggers
+│   │   ├── Intune/          # Device compliance reporting
+│   │   ├── Teams/           # Ownership and membership audits
+│   │   └── SharePoint/      # External sharing audits
 │   └── README.md
 │
-├── Bash/                    # macOS & JAMF Pro automation (7 scripts)
-│   ├── Security/            # Temporary admin access, FileVault validation
-│   ├── System-Configuration/# NTP/timezone, system setup
+├── Bash/                    # macOS & JAMF Pro automation (23 scripts)
+│   ├── Security/            # Temporary admin access, FileVault validation, TCC auditing
+│   ├── System-Configuration/# NTP/timezone, 802.1X WiFi, Platform SSO
 │   ├── Updates/             # Application update automation (Zoom, Chrome)
 │   ├── Utilities/           # Homebrew installation, system utilities
 │   └── README.md
 │
-├── Python/                  # Cross-platform system management (3 scripts)
+├── Python/                  # Cross-platform system management (4 scripts)
 │   ├── Management/          # Inventory collection, asset management
 │   ├── Security/            # User auditing, security baseline validation
+│   ├── Reporting/           # Service health monitoring with webhook alerts
 │   └── README.md
 │
-├── Terraform/               # AWS cloud infrastructure (Black Friday e-commerce)
-    ├── modules/             # Reusable IaC modules (networking, security, auto-scaling)
+├── Terraform/               # AWS cloud infrastructure (21 files)
+    ├── modules/             # Reusable IaC modules (networking, security, auto-scaling, S3)
     └── README.md
 
 ```
@@ -144,6 +151,21 @@ automation-portfolio/
 
 ---
 
+### 8. **Microsoft 365 / Entra ID Automation** (PowerShell)
+**Business Impact:** Standardized mailbox delegation, shared mailbox management, and Entra ID PIM reporting
+
+- Exchange Online mailbox delegation and quota automation
+- Shared mailbox creation/conversion with access provisioning
+- PIM role assignment reporting with Microsoft Graph
+- Azure AD Connect sync status and delta sync trigger
+- Conditional Access policy reporting and MFA readiness metrics
+- License utilization and app credential expiry reporting
+- Intune device compliance, Teams ownership, SharePoint external sharing audits
+
+**Files:** `PowerShell/Cloud/`
+
+---
+
 ## 💻 Technology Stack
 
 | Platform | Languages | Key Technologies |
@@ -218,11 +240,11 @@ These scripts are **portfolio examples** demonstrating real-world automation pat
 
 | Category | Script Count | Date Range | Lines of Code |
 |----------|--------------|------------|---------------|
-| PowerShell | 32 scripts | 2018-2024 | ~5,400 LOC |
-| Bash | 14 scripts | 2019-2021 | ~1,200 LOC |
-| Python | 3 scripts | 2020-2022 | ~1,800 LOC |
-| Terraform | 18 files | 2019 | ~2,000 LOC |
-| **Total** | **67 files** | **2018-2024** | **~10,400 LOC** |
+| PowerShell | 46 scripts | 2018-2026 | ~6,800 LOC |
+| Bash | 23 scripts | 2019-2026 | ~2,100 LOC |
+| Python | 4 scripts | 2020-2026 | ~2,000 LOC |
+| Terraform | 21 files | 2019-2026 | ~2,150 LOC |
+| **Total** | **94 files** | **2018-2026** | **~13,050 LOC** |
 
 ---
 

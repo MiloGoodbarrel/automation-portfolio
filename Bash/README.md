@@ -23,6 +23,7 @@ Security and access control scripts
 - `check-filevault-status.sh` - FileVault 2 encryption status validation *(Updated 2026-01-25)*
 - `remove-temp-admin.sh` - Revoke temporary administrator rights
 - **NEW** `Audit-TCC-Permissions.sh` - Privacy permission compliance auditing (Full Disk Access, Screen Recording, etc.)
+- **NEW** `Verify-FileVault-Escrow.sh` - Verifies FileVault is enabled and PRK exists (escrow validated in MDM)
 
 ### System-Configuration/
 System setup and configuration automation

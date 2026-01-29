@@ -92,6 +92,11 @@ Designed and deployed cloud infrastructure for a major Black Friday sales event 
 - **Encryption**: RDS encryption, SSL/TLS for all traffic
 - **DDoS Protection**: CloudFront + WAF + AWS Shield Standard
 
+### Security Baseline (`modules/s3-secure-bucket/`)
+- **S3 Hardening**: Public access block + default encryption
+- **Versioning**: Protects against accidental deletes
+- **Lifecycle**: Aborts incomplete multipart uploads
+
 ### CDN & Caching
 - **CloudFront**: Global edge locations, SSL, compression
 - **ElastiCache Redis**: Session management, shopping cart data
@@ -200,6 +205,7 @@ aws autoscaling describe-scaling-activities \
 ✅ **Tagging Strategy**: Consistent tags for cost allocation  
 ✅ **Lifecycle Management**: `create_before_destroy` for zero-downtime updates  
 ✅ **IAM Least Privilege**: Scoped instance profiles and roles  
+✅ **Security Baselines**: Reusable secure S3 bucket module  
 
 ## Cost Optimization
 

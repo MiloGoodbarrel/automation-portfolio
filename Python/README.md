@@ -30,7 +30,7 @@ This collection demonstrates Python's power for building cross-platform enterpri
   - Color-coded results with remediation guidance
 
 ### Reporting/
-*(Placeholder for future reporting tools)*
+- **service_health_checker.py** - Service uptime checks with JSON output and optional webhook alerts
 
 ## Requirements
 
@@ -87,6 +87,15 @@ python security_baseline_checker.py --verbose
 
 # Export HTML report
 python security_baseline_checker.py --export security_report.html
+```
+
+### Service Health Checking
+```bash
+# Check two services and write JSON report
+python service_health_checker.py --url https://status.example.com --url https://api.example.com/health --output health.json
+
+# Send webhook alert if any service fails
+python service_health_checker.py --url https://api.example.com/health --webhook-url https://hooks.example.com/services/XXX/YYY/ZZZ
 ```
 
 ## Cross-Platform Design
