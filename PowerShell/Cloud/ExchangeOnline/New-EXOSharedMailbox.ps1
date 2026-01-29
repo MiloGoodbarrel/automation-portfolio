@@ -1,4 +1,7 @@
 <#
+Copyright (c) 2018-2026 Luis Ramirez. All rights reserved.
+GitHub: https://github.com/MiloGoodbarrel/automation-portfolio
+
 .SYNOPSIS
 Create a new shared mailbox or convert an existing mailbox to shared.
 

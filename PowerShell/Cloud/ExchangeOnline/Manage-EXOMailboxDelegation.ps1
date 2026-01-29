@@ -1,4 +1,7 @@
 <#
+Copyright (c) 2018-2026 Luis Ramirez. All rights reserved.
+GitHub: https://github.com/MiloGoodbarrel/automation-portfolio
+
 .SYNOPSIS
 Add, remove, or report Exchange Online mailbox delegation.
 
